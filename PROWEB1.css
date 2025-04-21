@@ -1,5 +1,147 @@
-.header{
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
-    background-color: #00ddff;
 
+.header {
+	background : linear-gradient(to bottom ,#8ce1de ,#aafdfa );
+	/*background-color: #aafdfa;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	flex-wrap: wrap;
+}
+
+.header_h1{
+	font-size: 1rem;
+	letter-spacing: 1.5px;
+}
+
+.header_link{
+	padding: 8px;
+	margin-top: 5px;
+}
+
+.header_link a{
+	margin: 5px;
+	text-decoration: none;
+	background-color: #00d6ff;
+	padding: 5px;
+	color: #000;
+	border: 1px solid #00b4cc;
+	letter-spacing: 1px;
+}
+
+.header_link a:hover{
+	background-color: #22d6ee;
+	border: 1px solid #555;
+}
+
+
+.section_05{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.section_05_div{
+	padding-top: 10px;
+	background : linear-gradient(to bottom ,#aafdfa ,#8ce1de );
+	width: 100%;
+	height: 100%;
+}
+
+.section_05_div h2{
+	font-size: 2rem;
+	text-align: center;
+	color: #00688b;
+	letter-spacing: 2px;
+}
+
+.section_05_div p{
+	padding: 5px;
+	font-size: 1.5rem;
+	margin-top: 25px;
+	color: #00688b;
+	font-weight: bold;
+
+}
+
+.inframe{
+	background: linear-gradient(to bottom , #8ce1de , #0085b2);
+	padding: 15px;
+	width: 100%;
+	height: 60%;
+	padding-bottom: 10px;
+}
+
+.section_1{
+	background-color: #0085b2;
+	width: 100%;
+	height: 100%;
+}
+
+.section_1 h2{
+	margin-left: 38%;
+	padding: 20px;
+	color: #fff;
+
+}
+
+.section_1_div{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.section_1_div_cont{
+	background-color: #1fa9c4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
+.section_1_div_cont img{
+	width: 12rem;
+	height: 17rem;
+	object-fit: cover;
+}
+
+.section_1_div_cont h3{
+	text-align: center;
+	font-size: 1.1rem;
+	padding: 5px;
+	color: #000;
+	letter-spacing: 1px;
+	margin-top: auto;
+}
+
+.h3_autor{
+	font-size: 0.9rem !important;
+}
+
+
+.section_1_div_cont button{
+	margin-top: auto; 
+	border: none;
+	outline: none;
+	padding: 5px;
+	font-weight: bold;
+	margin: 5px;
+	letter-spacing: 2px;
+	font-style: italic;
+	width: 100%;
+}
+
+.section_1_div_cont button:hover{
+	outline: 3px solid #006c91;
 }
