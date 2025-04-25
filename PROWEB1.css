@@ -20,7 +20,8 @@ body{
 }
 
 .header_h1{
-	font-size: 1rem;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
 	letter-spacing: 1.5px;
 }
 
@@ -149,3 +150,72 @@ body{
 .section_1_div_cont button:hover{
 	outline: 3px solid #006c91;
 }
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	padding: 15px;
+  }
+
+  .texto {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+  }
+
+  .formulario {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+  }
+
+.boton-enviar {
+	background-color: #00b4cc;
+	border: none;
+	border-radius: 20px;
+	padding: 12px 40px;
+	justify-content: center;
+	margin-top: 40px;
+	
+
+	
+}
+
+.seccion-contacto {
+	text-align: center; 
+	padding: 30px 20px;
+}
+
+.formulario input {
+	padding: 12px 15px;
+	border: none;
+	border-radius: 20px;
+	width: 250px;
+	background-color: #f0f0f0;
+	font-size: 16px;
+	text-align: center;
+}
+.contenedor-boton { /*para centrar el boton de enviar*/
+	display: flex;
+	justify-content: center;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+textarea.form-control {
+	padding: 12px 15px;
+	border: none;
+	border-radius: 20px;
+	width: 500px;
+	background-color: #f0f0f0;
+	font-size: 16px;
+	text-align: center;
+	resize: none; /* opcional: evita que lo agranden */
+  }
+ 
