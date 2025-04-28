@@ -160,6 +160,12 @@ body{
 
 /* ABAJO FORMA PARTE DE CONTACTO*/
 
+.seccion-contacto{
+
+	margin-bottom: -55px;
+
+}
+
 .h1_contacto {
 	text-align: center;
 	font-size: 2rem;
@@ -192,9 +198,8 @@ body{
 
 .boton-enviar:hover{ /*cambia de color cuando pasa el mouse*/
 	background-color: #00d6ff;
-
-
 }
+
 .boton-telefono:hover{
 	background-color: #00d6ff;
 
@@ -218,6 +223,10 @@ body{
 	background-color: #f0f0f0;
 	font-size: 16px;
 	text-align: center;
+}
+
+.label_form{
+	margin-top: 10px;
 }
 
 .contenedor-boton { /*para centrar el boton de enviar*/
@@ -244,6 +253,7 @@ textarea.form-control { /*recuadro de mensaje*/
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  padding-left: 50px;
 }
 
 .grupo {
@@ -291,3 +301,5 @@ footer {
   .redes-sociales a:hover {
 	color: #00d6ff;
   }
+
+
