@@ -67,15 +67,16 @@ body{
 }
 
 .section_05_div h2{
-	font-size: 2rem;
+	font-size: 1.7rem;
 	text-align: center;
 	color: #012835;
 	letter-spacing: 2px;
+	margin-top: 50px;
 }
 
 .section_05_div p{
 	padding: 5px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin-top: 25px;
 	color: #001e28;
 	font-weight: bold;
@@ -96,8 +97,7 @@ body{
 }
 
 .section_1 h2{
-	margin-left: 38%;
-	align-content: center;
+	text-align: center;
 	padding: 20px;
 	color: #fff;
 
@@ -157,6 +157,29 @@ body{
 	outline: 3px solid #006c91;
 }
 
+
+.button_catalogo{
+	border: none;
+	outline: none;
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 12rem;
+	padding: 5px;
+	outline: 1px solid #888;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;	
+	background-color: #d0fdff;
+}
+
+.button_catalogo:hover{
+	outline: 1px solid#333;
+	background-color: #abfcff;
+
+
+
+
+}
 
 /* ABAJO FORMA PARTE DE CONTACTO*/
 
