@@ -31,6 +31,13 @@ body{
 	letter-spacing: 1.5px;
 }
 
+.parrafo {
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 0.5px;
+	padding: 10px;
+	color: black;
+}
+
 .header_link{
 	padding: 8px;
 	margin-top: 5px;
@@ -99,7 +106,7 @@ body{
 .section_1 h2{
 	text-align: center;
 	padding: 20px;
-	color: #fff;
+	color: black;
 
 }
 
