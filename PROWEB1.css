@@ -332,4 +332,28 @@ footer {
 	color: #00d6ff;
   }
 
+  .formulario-login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .formulario-login .grupo-formulario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
 
+  .formulario-login input {
+	padding: 12px 15px;
+	border: none;
+	border-radius: 20px;
+	width: 250px;
+	background-color: #f0f0f0;
+	font-size: 16px;
+	text-align: center;
+}
+
+ 	#mensaje {
+	padding: 20px;
+  }
