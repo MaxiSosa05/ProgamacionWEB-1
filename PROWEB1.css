@@ -165,12 +165,19 @@ body{
 }
 
 
+.a_vertodo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
 .button_catalogo{
 	border: none;
 	outline: none;
 	width: 60%;
 	margin-top: 10px;
-	margin-left: 12rem;
 	padding: 5px;
 	outline: 1px solid #888;
 	font-weight: bold;
