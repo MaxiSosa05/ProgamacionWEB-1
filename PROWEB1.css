@@ -172,6 +172,15 @@ body{
 	
 }
 
+.boton-saludo{
+	margin: 5px;
+	text-decoration: none;
+	background-color: #00d6ff;
+	padding: 5px;
+	color: #000;
+	border: 1px solid #00b4cc;
+	letter-spacing: 1px;
+}
 
 .button_catalogo{
 	border: none;
@@ -364,3 +373,19 @@ footer {
  	#mensaje {
 	padding: 20px;
   }
+  
+body.claro {
+	background-color: whitesmoke;
+	color: black;
+}
+
+body.oscuro {
+	background-color:  #121212;
+	color: white
+}
+
+button {
+	padding: 10px;
+	margin: 20px;
+	cursor: pointer;
+}
