@@ -61,3 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 })
+
+// Modo oscuro
+
+const B_oscuro = document.getElementById('Oscuro'); // llamo el boton
+
+function cambiarTema() {
+    const link = document.getElementById("estilo"); // accedo a la etiqueta link
+    const temaActual = link.getAttribute("href");   //accedo al atributo href
+
+    if (temaActual === "PROWEB1.css") {         // si es uno lo cambio por otro etc...
+        link.setAttribute("href", "Oscuro.css");
+    } else {
+        link.setAttribute("href", "PROWEB1.css");
+    }
+}
+
+B_oscuro.addEventListener("click" , cambiarTema); // le agrego el evento al buton

@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="PROWEB1.css">
+    <link id="estilo" rel="stylesheet" type="text/css" href="PROWEB1.css">
     <title>Registrate</title>
 </head>
 <body class="b_contacto">
 
     <header class="header">
+		
 		<div class="header_h1">
 			<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 			<h1>Libreria Nova &#128214</h1>
-      <h2 class="parrafo"><b>Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una". George R.R.Martin</b></h2>
-		 </div>
-
-		 <div class="header_link">  
-		 	<a href="index.html"> Inicio</a>
+			<h2 class="parrafo"><b>Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una". George R.R.Martin</b></h2>
+		</div>
+		<div class="header_link">
+      <a href="index.html"> Inicio</a>
 		 	<a href="contacto.html"> Contacto</a>
 		 	<a href="catalogo.html"> Catalogo</a>
-		 </div>
+			<a class="boton-saludo" onclick="saludo()">Saludar</a>
+			<a id="Oscuro">Modo Oscuro</a>
+		</div>
 	</header>
   
 
@@ -52,6 +54,7 @@
             <p class="texto mensaje-oculto"><strong>¡Listo! Ahora revisá tu correo electrónico.</strong></p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 <br>
 <footer>
@@ -66,5 +69,6 @@
       <br>
       <h5 class="copy">&copy; 2025 Libreria Nova. Todos los derechos reservados.  GRUPO 4</h5>
 </footer>
+
 
 </html>
