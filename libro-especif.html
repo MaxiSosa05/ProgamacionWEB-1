@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="PROWEB1.css" />
+  <title>Detalle del Libro</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header_h1">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <h1>Librería Nova 📖</h1>
+      <h2 class="parrafo">
+        <b>"Un lector vive mil vidas antes de morir..." - George R.R. Martin</b>
+      </h2>
+    </div>
+    <div class="header_link">
+      <a href="contacto.html">Contacto</a>
+      <a href="registrarse.html">Registrarse</a>
+      <a href="catalogo.html">Catálogo</a>
+    </div>
+  </header>
+
+  <main class="detalle-libro-section">
+    <div class="detalle-libro-card">
+      <img id="book-img" class="detalle-libro-img" alt="Portada del libro" />
+      <div class="detalle-libro-info">
+        <h1 id="book-title" class="detalle-libro-titulo"></h1>
+        <h2 id="book-author" class="detalle-libro-autor"></h2>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const data = JSON.parse(sessionStorage.getItem('detalle'));
+      if (data) {
+        document.getElementById('book-img').src = data.src;
+        document.getElementById('book-title').textContent = data.title;
+        document.getElementById('book-author').textContent = `Autor: ${data.author}`;
+      } else {
+        document.body.innerHTML = '<p>Error: no hay datos disponibles.</p>';
+      }
+    });
+  </script>
+</body>
+</html>
