@@ -48,11 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const img = parent.querySelector('img');
       const title = parent.querySelector('h3');
       const author = parent.querySelector('.h3_autor');
-
-      console.log(`Img (src): ${img}`);
-      console.log(`Titulo: ${title}`);
-      console.log(`Autor: ${author}`);
-
+      
       const data = {
         src: img.getAttribute('src'),
         title: title.textContent,
