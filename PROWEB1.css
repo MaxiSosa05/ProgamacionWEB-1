@@ -399,3 +399,50 @@ button {
 	cursor: zoom-in;
   }
 
+.detalle-libro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #aad8fd, #8cc2e1);
+  min-height: 80vh;
+}
+
+.detalle-libro-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 800px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.detalle-libro-img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.detalle-libro-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detalle-libro-titulo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #012835;
+}
+
+.detalle-libro-autor {
+  font-size: 1.2rem;
+  color: #004855;
+}
