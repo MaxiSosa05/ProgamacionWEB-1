@@ -1,21 +1,5 @@
 
 
-//zoom para las imagenes
-
-const imagenes = document.querySelectorAll('.zoom-libro');
-
-imagenes.forEach((img) => {
-  
-  img.addEventListener('mouseenter', () => {
-    img.classList.add('zoom-activo');
-  });
-
-  
-  img.addEventListener('mouseleave', () => {
-    img.classList.remove('zoom-activo');
-  });
-});
-
 document.addEventListener('DOMContentLoaded', () => {
   const buttonComprar = document.getElementsByClassName('comprar');
 
