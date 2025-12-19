@@ -197,16 +197,6 @@ body {
 	justify-content: center;
 }
 
-.boton-saludo {
-	margin: 5px;
-	text-decoration: none;
-	background-color: #006b8f;
-	padding: 8px;
-	color: #fff;
-	border: 1px solid #004f66;
-	letter-spacing: 1px;
-	cursor: pointer;
-}
 
 .button_catalogo {
 	border: none;

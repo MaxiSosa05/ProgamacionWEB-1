@@ -10,7 +10,6 @@
 
 button,
 .header_link a,
-.boton-saludo,
 .button_catalogo,
 .boton-enviar,
 .boton-telefono,
@@ -19,7 +18,6 @@ button,
 }
 
 .header_link a:hover,
-.boton-saludo:hover,
 .button_catalogo:hover,
 .boton-enviar:hover,
 .boton-telefono:hover,
@@ -202,16 +200,6 @@ body{
 	
 }
 
-.boton-saludo{
-	margin: 5px;
-	text-decoration: none;
-	background-color: #00d6ff;
-	padding: 8px;
-	color: #000;
-	border: 1px solid #00b4cc;
-	letter-spacing: 1px;
-	cursor: pointer;
-}
 
 .button_catalogo{
 	border: none;
