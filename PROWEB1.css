@@ -90,8 +90,9 @@ body{
 	width: 100%;
 	height: 85vh;
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	background-color: #8ce1de;
+	padding-bottom: 20px;
 }
 
 .section_05_div{
@@ -119,10 +120,9 @@ body{
 
 .inframe{
 	background: linear-gradient(to bottom , #8ce1de , #0085b2);
-	padding: 15px;
-	width: 100%;
-	height: 60%;
-	padding-bottom: 10px;
+	width: 70%;
+	height: 70%;
+	margin-right: 15px;
 }
 
 .section_1{
