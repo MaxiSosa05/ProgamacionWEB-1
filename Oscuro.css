@@ -68,9 +68,9 @@ body {
 	color: #ddd;
 }
 
-.header_link {
-	padding: 8px;
-	margin-top: 5px;
+.header_link{
+	padding: 12px 8px;
+	margin: auto;
 }
 
 .header_link a {

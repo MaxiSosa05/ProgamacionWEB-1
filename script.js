@@ -31,11 +31,28 @@ function cambiarTema() {
     const link = document.getElementById("estilo"); // accedo a la etiqueta link
     const temaActual = link.getAttribute("href");   //accedo al atributo href
 
-    if (temaActual === "PROWEB1.css") {         // si es uno lo cambio por otro etc...
-        link.setAttribute("href", "Oscuro.css");
+     if (temaActual === "PROWEB1.css") { // si el tema actual es el claro
+        link.setAttribute("href", "Oscuro.css"); // aplico el tema oscuro
+        localStorage.setItem("tema", "oscuro"); // guardo la preferencia en localStorage
     } else {
-        link.setAttribute("href", "PROWEB1.css");
+        link.setAttribute("href", "PROWEB1.css"); // aplico el tema claro
+        localStorage.setItem("tema", "claro"); // guardo la preferencia en localStorage
     }
 }
+
+
+function aplicarTema() {
+    const temaGuardado = localStorage.getItem("tema"); // obtengo el tema guardado
+
+    const link = document.getElementById("estilo");
+    if (temaGuardado === "oscuro") {
+        link.setAttribute("href", "Oscuro.css"); // si está guardado como oscuro, aplico el tema oscuro
+    } else {
+        link.setAttribute("href", "PROWEB1.css"); // si está guardado como claro, aplico el tema claro
+    }
+}
+
+// Aplicamos el tema al cargar la página
+document.addEventListener("DOMContentLoaded", aplicarTema);
 
 B_oscuro.addEventListener("click" , cambiarTema); // le agrego el evento al buton
