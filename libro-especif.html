@@ -28,8 +28,17 @@
       <div class="detalle-libro-info">
         <h1 id="book-title" class="detalle-libro-titulo"></h1>
         <h2 id="book-author" class="detalle-libro-autor"></h2>
+        <h2 id="descripcion" class="detalle-libro-descripcion"></h2>
+        <h2 id="precio" class="detalle-libro-precio"></h2>
       </div>
+
+      <div class="especifico-cont-button">
+        <button class="especifico-button"> Comprar </button>
+      </div>
+
     </div>
+
+    
   </main>
 
   <footer>
@@ -47,15 +56,20 @@
 
   <script>
     window.addEventListener('DOMContentLoaded', () => {
-      const data = JSON.parse(sessionStorage.getItem('detalle'));
-      if (data) {
-        document.getElementById('book-img').src = data.src;
-        document.getElementById('book-title').textContent = data.title;
-        document.getElementById('book-author').textContent = `Autor: ${data.author}`;
-      } else {
-        document.body.innerHTML = '<p>Error: no hay datos disponibles.</p>';
-      }
-    });
-  </script>
+    const data = JSON.parse(sessionStorage.getItem('detalle'));
+    
+    if (data) {
+      // Asignar los datos a los elementos del DOM
+      document.getElementById('book-img').src = data.src;
+      document.getElementById('book-title').textContent = data.title;
+      document.getElementById('book-author').textContent = `Autor: ${data.author}`;
+      document.getElementById('descripcion').textContent = `Descripción: ${data.descrip}`;
+      document.getElementById('precio').textContent = `Precio: ${data.precio}`;
+    } else {
+      document.body.innerHTML = '<p>Error: no hay datos disponibles.</p>';
+    }
+  });
+</script>
+
 </body>
 </html>
